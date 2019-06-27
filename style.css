@@ -24,7 +24,8 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	background: #222;
-	position: fixed
+	position: fixed;
+	z-index: 999;
 }
 
 nav{
@@ -346,4 +347,117 @@ button.live-demo:hover{
 #contact .send-button:hover{
 	background: transparent;
 	border: 1px solid #ff0000
+}
+/* ------------------------------------------------PORTFOLIO____________________________ */
+.portfolio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	color: #000;
+	padding-top: 80px;
+  padding-bottom: 120px;
+  background: #f7f7f7;
+}
+
+.portfolio h3{
+	color: #666;
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	line-height: 1.1;
+	text-align: center
+}
+
+.portfolio p{
+	padding-bottom: 60px;
+	margin-bottom: 10px;
+	color: #999;
+	margin-top: 12px
+}
+
+
+.portfolio-wrapper{
+	width: 1170px;
+	box-sizing: border-box;
+	padding: 0px 15px;
+}
+
+.portfolio-wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center
+}
+.portfolio-wrapper .portfolio-image{
+	max-width: 33.33%;
+	max-height: 303.688px;
+	height: 390px;
+	position: relative;
+	overflow: hidden;
+}
+.portfolio-wrapper .portfolio-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	transform-origin: center;
+}
+
+.portfolio-image .overlap{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	color: #FFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+.overlap h4{
+	text-transform: uppercase;
+	color: #777;
+	font-weight: 400;
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+	background: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+
+.overlap i{
+	color: #5BB12F;
+	background: #FFF;
+	border-radius: 50%;
+	padding: 20px;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.portfolio-image:hover > .overlap{
+	display: flex;
+	background: rgba(91, 177, 47, 0.8)
+}
+.portfolio-image:hover img{
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
 }
