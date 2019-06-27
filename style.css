@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:  'Montserrat',sans-serif;
+	color: #FFF;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #222;
+	position: fixed
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	width: 61%;
+	justify-content: space-between;
+	max-height: 340px;
+}
+
+nav h2{
+	color: #FFF;
+	font-family: cursive;
+	color: #5bb12f;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 100
+}
+
+nav .links{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	widows: 100%;
+	justify-content: space-around;
+	padding: 2px;
+	align-self: center
+}
+
+nav .links a{
+		text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+		font-weight: 400;
+		text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+		font-size: 12px;
+		padding: 15px;
+		font-weight: 600
+}
+
+nav .links a:hover{
+	color: #5bb12f
+}
+/* /* ----------------------------------------------------------HEADER *-------------------------------------/ */
+header{
+	min-height: 700px;
+	background: url("http://demo.themefisher.com/themefisher/fame/images//galaxy.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header .info{
+	width: 41%
+}
+
+header .info h1{
+	font-size: 68px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 800;
+	text-align: center;
+	margin: 20px 0px 26px 0px;
+	letter-spacing: 5px;
+}
+
+header .info h1 span{
+	color: #5bb12f
+}
+
+header .info p{
+	font-size: 30px;
+font-weight: 300;
+line-height: 35px;
+letter-spacing: 1px;
+margin-bottom: 55px;
+color: #fff;
+text-align: center;
+}
+
+header  button{
+	padding: 10px 40px;
+	font-size: 20px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	text-transform: uppercase;
+	line-height: 28px;
+	font-weight: 300;
+	border: 0;
+	-moz-transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button.get-now{
+	background: #5BB12F;
+	color: #fff;
+	border: 1px solid #5BB12F;
+	font-weight: 200;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+button.get-now:hover{
+	background: transparent;
+	border: 1px solid #fff
+}
+button.live-demo{
+	background: #ECECEC;
+	color: #000;
+	border: 1px solid #ECECEC
+}
+button.live-demo:hover{
+	background: #000;
+	color: #fff;
+	border: 1px solid #000
+}
+
+/* ==============================================================FEATURE--------------------- */
+.features{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #FFF;
+	color: #444;
+	justify-content: center;
+	padding-top: 80px
+}
+.features .feature{
+	width: 15%;
+	font-size: 13px;
+	text-align: center;
+	padding: 0px 15px 80px 15px
+}
+
+.features .feature .title{
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter
+}
+.features .feature .desc{
+	line-height: 20px;
+}
+
+.features .feature i{
+	background: #5BB12F;
+	color: #fff;
+	padding: 25px
+}
+
+/* ---------------------------------------------------Random text div --------------------------------*/
+
+.random-text{
+	padding: 80px 0px;
+	background-image: url("http://demo.themefisher.com/themefisher/fame/images/parallax/call-to.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.random-text div{
+	width: 1170px !important;
+	text-align: center
+}
+.random-text div button{
+	padding: 20px;
+	font-size: 16px;
+	border-color: #5BB12F;
+	background-color: #5BB12F;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+	border-radius: 3px;
+	transition: all 0.3s;
+	text-align: center;
+	border: 1px solid #5BB12F
+}
+
+.random-text div button:hover{
+	background: transparent;
+	border: 1px solid red
+}
+
+.random-text div h1{
+	margin: 20px 0px 0px 10px;
+	padding-bottom:40px;
+	font-weight: 300;
+  line-height: 50px;
+	font-size: 30px;
+
+};
+
+#contact-form{
+	background: #5BB12F !important
+}
+
+/* ----------------------------------------------------CONTACT------------------------------------------------ */
+
+#contact{
+	display: flex;;
+	flex-direction: column;
+	padding-top: 60px;
+	background: url("http://demo.themefisher.com/themefisher/fame/images/parallax/contact-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+}
+
+#contact .info{
+	text-align: center;
+	margin-bottom: 57px;
+
+}
+
+.info h2{
+	font-size: 28px;
+	margin-bottom: 6px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.info p{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px
+
+}
+#contact form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%
+}
+
+#contact form input{
+	height: auto;
+	font-size: 14px;
+	width: 90%;
+	border-radius: 3px;
+	padding: 5px;
+	border-style: none;
+	border: 1px solid #CCC;
+	padding: 20px;
+	border-radius:4px;
+	line-height: 1.42857143;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	color: #555;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contact input.mb{
+	margin-bottom: 24px;
+}
+
+#contact form .left{
+	width: 30%;
+	height: 100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	padding: 11px;
+
+}
+
+#contact form .right{
+	width: 30%;
+	height: 100%;
+	margin-right: 10px;
+	padding: 11px
+}
+
+#contact form textarea{
+	width: 90%;
+	height: 192px;
+	padding: 20px;
+	border-radius:4px;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: #555
+}
+
+#contact .send-button{
+	width: 169px;
+	height: 64px;
+	margin: 38px auto 40px auto;
+	border-color: #5BB12F;
+	background-color: #5BB12F;
+	line-height: 1.42857143;
+	border: none;
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+#contact .send-button:hover{
+	background: transparent;
+	border: 1px solid #ff0000
+}
