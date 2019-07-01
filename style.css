@@ -462,6 +462,372 @@ button.live-demo:hover{
 	-o-transform: scale(1.5);
 }
 
+/* -----------------------------------skill----------------------------------- */
+
+.skills{
+	background: #fbfbfb
+}
+
+.skill-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #666;
+	width: 1170px;
+	margin: auto;
+	height: 375px;
+	padding: 70px 0px 90px 0px;
+}
+
+.skill-wrapper .progess-wrapper{
+	width: 48%;
+	padding: 0px 55px;
+}
+.skill-wrapper .progess-wrapper p{
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	margin: 10px 0px
+}
+
+.skill-wrapper .skill-image{
+	width: 48%;
+	padding: 0px 15px;
+	margin-left: -10px;
+}
+
+.skill-wrapper .skill-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.skill-wrapper .progress{
+	background: #5BB12F;
+	padding: 15px;
+	position: relative;
+}
+
+.skill-wrapper .progress span{
+	padding: 12px 15px;
+	background: #ACB2B8;
+	color: #fff;
+	position: absolute;
+	top: -15%;
+	right: 0;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif
+}
+
+/* --------------------------services------------------ */
+
+.services{
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	padding: 80px 0px 20px 0px
+
+}
+
+.service-text{
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.service-text h2{
+	font-size: 28px;
+	font-family: "Oswald",sans-serif;
+	color: #666;
+	margin: 20px 0px 8px
+}
+
+.service-text p{
+	font-size: 18px;
+	font-family: "Open Sans",sans-serif;
+	color: #666;
+	margin: 0px;
+	font-weight: lighter
+}
+
+
+.services .service-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 1170px;
+	flex-wrap: wrap
+}
+
+.service{
+	display: flex;
+	flex-direction: row;
+	width: 33%;
+	height: 100px;
+	padding-bottom: 80px
+}
+.service i{
+font-size: 30px;
+background: #5bb12f;
+color: #fff;
+padding: 20px;
+margin-top: 17px;
+}
+
+.service-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 10px
+}
+.service-info h4{
+	margin: 0px;
+	font-size: 15px;
+	font-family: "Oswald",sans-serif;
+	font-weight: 100;
+	color: #666
+}
+.service-info p{
+	margin: 0px;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif
+}
+
+
+/* ------------------------------------counter----------- */
+
+.counter{
+	color: #5BB12F;
+	padding-top: 120px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(#000000ab,#000000ab),url("https://images.unsplash.com/photo-1561900478-5001f6b4d8ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80")
+}
+
+.counter .item{
+	padding: 35px 75px;
+	text-align: center;
+	margin: 14px;
+	background: #0000008f
+}
+.counter .item h3{
+	font-size: 43px;
+	font-family: sans-serif;
+	margin: 10px
+}
+.counter .item h5{
+	color:#FFF;
+	margin: 10px;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif
+}
+
+
+/* -----------------------------team----------------- */
+
+.team{
+	color: #666;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 71px 0px 125px
+}
+.team .info{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.team .info h3{
+	font-size: 28px;
+	font-family: "Oswald",sans-serif;
+	margin: 0;
+}
+.team .info p{
+	font-family: "Open Sans",sans-serif;
+	font-size: 18px;
+	margin: 8px 0px;
+	color: #999
+
+}
+
+.team .team-members{
+	width: 1170px;
+	display: flex;
+}
+.team .team-members .member{
+	width: 25%;
+	height: 280px;
+	padding: 1px;
+}
+.team .team-members .member img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* ------------------------------pricing--------------- */
+.pricing{
+	color: #FFF;
+	background: linear-gradient(#000000a6, #000000a6),url("https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-position: center;
+	background-size: cover;
+	padding: 71px 0px 125px;
+	text-align: center;
+}
+
+.pricing .info{
+	margin-bottom: 60px;
+	padding-top: 20px;
+}
+.pricing .info h3{
+	font-size: 28px;
+	font-family: "Owsald", sans-serif !important;
+	margin: 0px 5px;
+}
+.pricing .info p{
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	margin: 5px 7px;
+	font-weight: lighter;
+}
+
+.price-card{
+	width: 14%;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #FFF;
+	color: #666;
+	margin: 0px 16px;
+}
+
+.pricing .cards{
+	display: flex;
+	justify-content: center
+}
+
+.price-card .catg{
+	width: 100%;
+	background: #5bb12f;
+	color: #fff;
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+.price-card .catg h2{
+	font-weight: 400;
+	font-family: "Open Sans",sans-serif;
+}
+
+
+.price-card .plan-price{
+	width: 100%;
+}
+.price-card .plan-price .price-value{
+	font-size: 38px;
+	font-family: "Open Sans", sans-serif;
+	margin: 4px;
+	color: #444444;
+	font-weight: 600;
+	padding: 25px 0px;
+}
+.plan-price .price-value span{
+	font-size: 14px;
+	display: block;
+	font-family: "Open Sans", sans-serif;
+	margin: 0px
+}
+
+.plan-price .fc {
+	border-top: 1px solid #eee;
+}
+
+.plan-price > p{
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	padding: 13px;
+	margin: 0px;
+	border-bottom: 1px solid #eee;
+	color: #333
+}
+
+.plan-price button{
+	width: 100%;
+	height: 64px;
+	background-color: #5bb12f;
+	color: #FFF;
+	border: none;
+	font-size: 14px
+}
+
+
+/* -----------------------------------news------------------------- */
+
+.news-wrapper{
+	color: #666;
+	padding: 80px 60px;
+}
+
+.news-wrapper .info{
+	text-align: center;
+	padding: 0px 0px 50px;
+}
+.news-wrapper .info h3{
+	font-family: "Oswald",sans-serif;
+	font-size: 28px;
+	margin: 20px 0px 10px
+}
+.news-wrapper .info p{
+	font-family: "Open Sans",sans-serif;
+	font-size: 18px;
+	margin: 0px 0px 10px;
+	color: #999
+}
+
+.news-wrapper .news-cards{
+	width: 1170px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.news-cards .card{
+	width: 33%;
+	text-align: left;
+	padding: 15px;
+	box-sizing: border-box
+}
+.news-cards .card-image img{
+	width: 100%;
+	height: 100%;
+}
+.news-cards .card h4{
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	margin: 10px 0px;
+	color: #5bb12f;
+	font-weight: 550;
+}
+.news-cards .card p{
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	margin: 0px 0px 10px 0px;
+	color: #999;
+	padding: 0px 0px 10px 0px;
+	font-weight: 550;
+	line-height: 21px;
+}
+
+.news-cards button{
+	background: #5BB12F;
+	color: #fff;
+	padding: 6px 12px;
+	font-size: 14px;
+	border: none;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase
+}
+
 /* ---------------------------------------------about us--------------------- */
 .about-us-wrapper{
 	color: #666666;
